@@ -5,9 +5,8 @@ export const HomeContainer = styled.main`
 
   display: flex;
   flex-direction: column;
-
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 
   form {
     display: flex;
@@ -72,7 +71,7 @@ export const CountdownContainer = styled.div`
 
   span {
     background-color: ${({ theme }) => theme['gray-700']};
-    padding: 2rem;
+    padding: 2rem 1rem;
     border-radius: 8px;
   }
 `;
