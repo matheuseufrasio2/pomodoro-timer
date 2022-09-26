@@ -25,6 +25,9 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/jsx-no-bind': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'react/jsx-no-constructed-context-values': 'off',
     'max-len': 'off',
     'react/jsx-filename-extension': [1,
       {
