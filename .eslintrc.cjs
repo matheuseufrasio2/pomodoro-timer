@@ -29,6 +29,10 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 'off',
     'react/jsx-no-constructed-context-values': 'off',
     'max-len': 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'error',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
     'react/jsx-filename-extension': [1,
       {
         extensions: [
